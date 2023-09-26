@@ -16,7 +16,7 @@ This project is under implements. Installation instruction would be here after f
 ## App screens diagram
 ```mermaid
 flowchart  TB
-A([StratApp])  -->  B{Is it for first time?}
+A([StartApp])  -->  B{Is it for first time?}
 B  -->|Yes| IntroPage
 IntroPage  -->  HomePage
 B  -->|No| HomePage
